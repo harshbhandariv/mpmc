@@ -10,8 +10,8 @@ org 100h
 
 ;Result interpretation
 ; if data 1 > data 2 then RESULT IS 1
-; if data 1 > data 2 then RESULT IS 2
-; if data 1 > data 2 then RESULT IS 0
+; if data 1 < data 2 then RESULT IS 2
+; if data 1 = data 2 then RESULT IS 0
 ; add your code here    
     MOV AX,0X8000
     MOV DS,AX
