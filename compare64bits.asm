@@ -4,8 +4,8 @@
 
 org 100h
 ;Memory Allocation
-; data 1 - 0x8000:1000 to 0x8000:10007
-; data 2 - 0x8000:1008 to 0x8000:1000F
+; data 1 - 0x8000:1000 to 0x8000:1007
+; data 2 - 0x8000:1008 to 0x8000:100F
 ; RESULT - 0X8000:1010
 
 ;Result interpretation
