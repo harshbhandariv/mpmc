@@ -14,7 +14,6 @@ org 100h
 MOV AX,0X8000
 MOV DS,AX
 MOV SI,0X1000
-MOV DI,0X2000
 MOV AX,[SI]
 ADD AX,[SI+4];Add first set of 16 bit number
 MOV [DI],AX
