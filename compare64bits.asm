@@ -36,7 +36,7 @@ CONTINUE:
     LOOP LOOP1
     
     
-    MOV SI,0X1010
+    MOV SI,0X1010      ;data 1 = data 2, result = 0
     MOV [SI],0X00
     RET
     
