@@ -22,7 +22,7 @@ org 100h
     
 LOOP1:
     MOV AX,[SI]
-    MOV BX,[SI+10]
+    MOV BX,[SI+0X10]
     DEC SI
     DEC SI
     CMP AX,BX
