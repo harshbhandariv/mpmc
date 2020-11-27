@@ -22,8 +22,7 @@ INC SI
 CLD             ;Make sure SI&DI gets incremented
 REP MOVSB
 
-ret
-
+RET
 
 
 
