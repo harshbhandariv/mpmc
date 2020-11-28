@@ -10,7 +10,7 @@ org 100h
 ;0x8000:1000 - Location for my father's name
 ;0x8000:1000 - Location for my mother's name
 
-;Name sorting format - (size of name) + (name)
+;Name storing format - (size of name) + (name)
 ;Example:
 ;For the name "HARSH"
 ;Stored as 5HSRAH      (Stored in Little Endian Format)
