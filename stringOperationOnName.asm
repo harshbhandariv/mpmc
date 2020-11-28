@@ -10,7 +10,7 @@ org 100h
 ;0x8000:1000 - Location for my father's name
 ;0x8000:1000 - Location for my mother's name
 
-;Name sotring format - (size of name) + (name)
+;Name sorting format - (size of name) + (name)
 ;Example:
 ;For the name "HARSH"
 ;Stored as 5HSRAH      (Stored in Little Endian Format)
@@ -32,7 +32,7 @@ MOV AX,0             ;Clearing AX register
 MOV AL,[SI]
 ADD AX,0x1000        ;Adding 0x1000 to get the Source index of the name
 MOV SI,AX
-MOV CL,[SI]          ;Size of Fathers name
+MOV CL,[SI]          ;Size of Father's name
 INC SI               ;Incrementing SI to point name
 CLD
 MOV AX,0x9000
