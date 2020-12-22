@@ -11,17 +11,9 @@ org 100h
 
 ;Name storing format - (size of name) + (name)
 ;Example:
-;For the name "HARSH"
-;Stored as 5HARSH
+;For the name "SETHURAMAN"
+;Stored as ASETHURAMAN
 
-
-
-;My register number is 19D032
-;Type - 2
-;Result Storage Memory Allocation
-;0x9000:1050 - Father's name
-;0x9050:1000 - Mother's name
-;0x9060:1050 - My name
 
 
 MOV AX,0X8000
@@ -69,7 +61,7 @@ MOV AH,0X0E
 MOV AL,0X20
 INT 0x10 
 
-MOV SI,0X1002        ;Source Address for father name
+MOV SI,0X1002        ;Source Address for mother's name
 MOV AX,0             ;Clearing AX register
 MOV AL,[SI]
 ADD AX,0x1000        ;Adding 0x1000 to get the Source index of the name

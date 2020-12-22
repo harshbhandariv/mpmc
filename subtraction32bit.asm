@@ -30,16 +30,7 @@ MOV AL,0
 JNC SKIP_INCREMENT
 INC AL
 SKIP_INCREMENT: MOV [SI+0XC],AL
-END
 ret
-
-
-
-
-
-
-ret
-
 
 
 
